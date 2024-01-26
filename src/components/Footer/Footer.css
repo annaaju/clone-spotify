@@ -1,0 +1,59 @@
+
+.disclaimer-premium, footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.disclaimer-premium .text {
+   flex-shrink: 0;
+}
+.disclaimer-premium .disclaimer-premium__title {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.disclaimer-premium .buttonIns{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 10px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: 0.1;
+}
+
+.buttons-container {
+    display: flex;
+  }
+
+.disclaimer-premium button:hover{
+    transform: scale(1.04);
+}
+
+.close{
+    background: none;
+    border: none;
+    font-size: 28px;
+    display: flex;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+

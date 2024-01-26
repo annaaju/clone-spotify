@@ -1,0 +1,114 @@
+
+.header-navigation{
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #121212;
+    height: 60px;
+}
+
+.header-navigation .navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-navigation .navigation .arrow-left{
+    margin-right: 1.25rem;
+}
+
+.arrow-left, .arrow-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    background: var(--bg-icon);
+    background-color: rgba(0,0,0,7);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.setas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.arrow-left:hover{
+    opacity: 0.6;
+
+}
+
+.arrow-right:hover{
+    opacity: 0.6;
+}
+
+.header-login{
+    display: flex;
+    align-items: center;
+}
+
+.header-search{
+    display: flex;
+    align-items: center;
+    width: 40vw;
+    height: 50px;
+    margin-left: 8px;
+    background-color: #242424;
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header-search img{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.header-search input{
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0 12px;
+    color: #fff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: #fff;
+    width: 100%;
+}
+
+.header-login .subscribe{
+    color: #a7a7a7;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.header-login .subscribe:hover{
+    color: #fff;
+    transform: scale(1.02);
+}
+
+
+.header-login .enter{
+    width: 100px;
+    height: 48px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.header-login .enter:hover{
+    transform: scale(1.03);
+}
